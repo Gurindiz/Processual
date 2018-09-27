@@ -5,7 +5,7 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="PrincipalController">
+<fx:root type="AnchorPane" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="PrincipalController">
    <children>
       <Pane prefHeight="600.0" prefWidth="800.0">
          <children>
@@ -22,4 +22,4 @@
          </children>
       </Pane>
    </children>
-</AnchorPane>
+</fx:root>

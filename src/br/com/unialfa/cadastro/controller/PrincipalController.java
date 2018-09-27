@@ -1,8 +1,7 @@
 package br.com.unialfa.cadastro.controller;
 
 import br.com.unialfa.cadastro.model.Usuario;
-import javafx.collections.FXCollections;
-import javafx.collections.ObservableList;
+import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.TableView;
@@ -21,5 +20,18 @@ public class PrincipalController {
 	@FXML
 	private Button btnSalvar;
 	
-	private ObservableList<Usuario> usuarios = FXCollections.observableArrayList();
+	@FXML
+	void novo(ActionEvent event) {
+		
+	}
+	
+	@FXML
+	void editar(ActionEvent event) {
+		
+	}
+	
+	@FXML
+	void salvar(ActionEvent event) {
+		
+	}
 }

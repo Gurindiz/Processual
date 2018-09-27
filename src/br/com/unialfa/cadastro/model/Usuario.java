@@ -23,11 +23,22 @@ public class Usuario {
 	public void setUsuario(String usuario) {
 		this.usuario = usuario;
 	}
+	public ObjectProperty<CargoEnum> getCargo() {
+		return cargo;
+	}
+	public void setCargo(ObjectProperty<CargoEnum> cargo) {
+		this.cargo = cargo;
+	}
 	public String getEmail() {
 		return email;
 	}
 	public void setEmail(String email) {
 		this.email = email;
 	}
-
+	public String getSenha() {
+		return senha;
+	}
+	public void setSenha(String senha) {
+		this.senha = senha;
+	}
 }
