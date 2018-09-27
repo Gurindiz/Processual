@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<fx:root type="AnchorPane" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="UsuarioController">
+   <children>
+      <Pane prefHeight="303.0" prefWidth="400.0">
+         <children>
+            <Label id="lblUsuario" layoutX="70.0" layoutY="60.0" text="Usuario:" />
+            <Label id="lblEmail" layoutX="70.0" layoutY="110.0" text="E-mail:" />
+            <Label id="lblCargo" layoutX="70.0" layoutY="161.0" text="Cargo:" />
+            <Label id="lblSenha" layoutX="70.0" layoutY="214.0" text="Senha:" />
+            <Label layoutX="144.0" layoutY="14.0" text="Cadastro de Usuarios" />
+            <TextField id="txtUsuario" layoutX="120.0" layoutY="56.0" prefHeight="25.0" prefWidth="220.0" />
+            <TextField id="txtEmail" layoutX="120.0" layoutY="106.0" prefWidth="220.0" />
+            <TextField id="txtSenha" layoutX="120.0" layoutY="210.0" prefWidth="220.0" />
+            <ComboBox id="cboCargo" layoutX="120.0" layoutY="157.0" prefWidth="220.0" />
+            <Button id="btnSalvar" layoutX="149.0" layoutY="255.0" mnemonicParsing="false" text="Salvar" />
+            <Button id="btnLimpar" layoutX="222.0" layoutY="255.0" mnemonicParsing="false" text="Limpar" />
+         </children>
+      </Pane>
+   </children>
+</fx:root>

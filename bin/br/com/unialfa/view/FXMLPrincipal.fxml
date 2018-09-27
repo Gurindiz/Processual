@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="PrincipalController">
+   <children>
+      <Pane prefHeight="600.0" prefWidth="800.0">
+         <children>
+            <TableView id="tblUsuario" layoutX="28.0" layoutY="67.0" prefHeight="504.0" prefWidth="742.0">
+              <columns>
+                <TableColumn prefWidth="247.0" text="Id" />
+                <TableColumn prefWidth="247.0" text="Usuário" />
+                  <TableColumn prefWidth="247.0" text="E-mail" />
+              </columns>
+            </TableView>
+            <Button id="btnNovo" layoutX="276.0" layoutY="20.0" mnemonicParsing="false" text="Novo" />
+            <Button id="btnEditar" layoutX="378.0" layoutY="19.0" mnemonicParsing="false" text="Editar" />
+            <Button id="btnSalvar" layoutX="474.0" layoutY="19.0" mnemonicParsing="false" text="Salvar" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
